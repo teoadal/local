@@ -24,6 +24,9 @@
         <Compile Update="Collections\LocalVector.Linq.cs">
             <DependentUpon>LocalVector.cs</DependentUpon>
         </Compile>
+        <Compile Update="Collections\LocalVector.Enumerator.cs">
+          <DependentUpon>LocalVector.cs</DependentUpon>
+        </Compile>
     </ItemGroup>
 
 </Project>

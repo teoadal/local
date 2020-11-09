@@ -11,7 +11,7 @@ namespace Local.Benchmarks
     [MeanColumn, MemoryDiagnoser]
     public class AddBenchmark
     {
-        [Params(3, 7, 10, 15, 20)] 
+        [Params(1, 3, 5, 7, 10)]
         public int Count;
 
         private object[] _items;
