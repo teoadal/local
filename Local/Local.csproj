@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>Local</AssemblyName>
+        <RootNamespace>Local</RootNamespace>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>8</LangVersion>
+        <Nullable>enable</Nullable>
+        <WarningsAsErrors>CS8600;CS8601;CS8602;CS8603;CS8604;CS8606;CS8613;CS8618;CS8620;CS8625;CS8714</WarningsAsErrors>
+
+        <Title>Local</Title>
+        <Description>List on stack</Description>
+        <Version>0.8.0</Version>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>git://github.com/teoadal/local</RepositoryUrl>
+        <PackageId>Local</PackageId>
+        <PackageTags>collection;list;performance</PackageTags>
+        <PackageProjectUrl>https://github.com/teoadal/local</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Update="Collections\LocalVector.Linq.cs">
+        <DependentUpon>LocalVector.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="obj\Release\netstandard2.1" />
+    </ItemGroup>
+
+</Project>
