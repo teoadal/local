@@ -2,8 +2,8 @@
 
 [![.NET Core](https://github.com/teoadal/local/workflows/.NET%20Core/badge.svg?branch=master)](https://github.com/teoadal/local/actions)
 [![codecov](https://codecov.io/gh/teoadal/local/branch/master/graph/badge.svg)](https://codecov.io/gh/teoadal/local)
-[![NuGet](https://img.shields.io/nuget/v/local.svg)](https://www.nuget.org/packages/local) 
-[![NuGet](https://img.shields.io/nuget/dt/local.svg)](https://www.nuget.org/packages/local)
+[![NuGet](https://img.shields.io/nuget/v/locals.svg)](https://www.nuget.org/packages/locals) 
+[![NuGet](https://img.shields.io/nuget/dt/locals.svg)](https://www.nuget.org/packages/locals)
 
 Simple collection on stack. 
 Use to store a small number of items without allocating an intermediate collection.
