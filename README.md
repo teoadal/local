@@ -14,12 +14,6 @@ Use to store a small number of items (up to 7) without allocating an intermediat
 
 |      Method | Count |      Mean |    Error |   StdDev | Ratio | RatioSD |  Gen 0 | Gen 1 | Gen 2 | Allocated |
 |------------ |------ |----------:|---------:|---------:|------:|--------:|-------:|------:|------:|----------:|
-|        List |     1 |  60.05 ns | 1.323 ns | 3.818 ns |  1.00 |    0.00 | 0.0101 |     - |     - |      64 B |
-| **LocalVector** |     1 |  38.79 ns | 0.799 ns | 1.821 ns |  **0.63** |    0.05 |      - |     - |     - |         - |
-|             |       |           |          |          |       |         |        |       |       |           |
-|        List |     3 |  65.68 ns | 0.398 ns | 0.352 ns |  1.00 |    0.00 | 0.0126 |     - |     - |      80 B |
-| **LocalVector** |     3 |  48.77 ns | 0.323 ns | 0.286 ns |  **0.74** |    0.01 |      - |     - |     - |         - |
-|             |       |           |          |          |       |         |        |       |       |           |
 |        List |     5 |  75.42 ns | 0.523 ns | 0.437 ns |  1.00 |    0.00 | 0.0153 |     - |     - |      96 B |
 | **LocalVector** |     5 |  63.55 ns | 0.369 ns | 0.327 ns |  **0.84** |    0.01 |      - |     - |     - |         - |
 |             |       |           |          |          |       |         |        |       |       |           |
@@ -33,12 +27,6 @@ Use to store a small number of items (up to 7) without allocating an intermediat
 
 |      Method | Count |      Mean |    Error |   StdDev | Ratio |  Gen 0 | Gen 1 | Gen 2 | Allocated |
 |------------ |------ |----------:|---------:|---------:|------:|-------:|------:|------:|----------:|
-|        List |     1 |  55.35 ns | 0.395 ns | 0.370 ns |  1.00 | 0.0101 |     - |     - |      64 B |
-| **LocalVector** |     1 |  36.11 ns | 0.280 ns | 0.234 ns |  **0.65** |      - |     - |     - |         - |
-|             |       |           |          |          |       |        |       |       |           |
-|        List |     3 |  63.05 ns | 0.778 ns | 0.728 ns |  1.00 | 0.0126 |     - |     - |      80 B |
-| **LocalVector** |     3 |  48.03 ns | 0.679 ns | 0.567 ns |  **0.76** |      - |     - |     - |         - |
-|             |       |           |          |          |       |        |       |       |           |
 |        List |     5 |  76.99 ns | 0.880 ns | 0.823 ns |  1.00 | 0.0153 |     - |     - |      96 B |
 | **LocalVector** |     5 |  63.75 ns | 0.451 ns | 0.376 ns |  **0.83** |      - |     - |     - |         - |
 |             |       |           |          |          |       |        |       |       |           |
