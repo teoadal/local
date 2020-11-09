@@ -12,10 +12,10 @@ Use to store a small number of items without allocating an intermediate collecti
 
 ## Install from nuget
 
-Install Marble with the following command [from nuget](https://www.nuget.org/packages/local/):
+Install Marble with the following command [from nuget](https://www.nuget.org/packages/locals/):
 
 ```ini
-Install-Package Local
+Install-Package Locals
 ```
 
 ## Usage
