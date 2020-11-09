@@ -21,13 +21,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Compile Update="Collections\LocalVector.Linq.cs">
-        <DependentUpon>LocalVector.cs</DependentUpon>
-      </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="obj\Release\netstandard2.1" />
+        <Compile Update="Collections\LocalVector.Linq.cs">
+            <DependentUpon>LocalVector.cs</DependentUpon>
+        </Compile>
     </ItemGroup>
 
 </Project>
