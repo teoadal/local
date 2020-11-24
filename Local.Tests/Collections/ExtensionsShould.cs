@@ -105,7 +105,7 @@ namespace Local.Tests.Collections
             var vector = new LocalVector<double>();
             vector.Max();
         });
-        
+
         [Fact]
         public void ThrowIfCalculateMinByEmptyVector() => Assert.Throws<InvalidOperationException>(() =>
         {

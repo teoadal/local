@@ -31,7 +31,7 @@ namespace Local.Tests.Collections
                 Assert.True(vector.Contains(item));
             }
         }
-        
+
         [Theory, MemberData(nameof(ItemsCount))]
         public void AddRangeOfItems(int itemsCount)
         {
@@ -45,7 +45,7 @@ namespace Local.Tests.Collections
                 Assert.True(vector.Contains(item));
             }
         }
-        
+
         [Theory, MemberData(nameof(ItemsCount))]
         public void AddRangeOfItemsCollection(int itemsCount)
         {
@@ -66,13 +66,7 @@ namespace Local.Tests.Collections
 
         public static TheoryData<int> ItemsCount() => new TheoryData<int>
         {
-            0,
-            1,
-            5,
-            10,
-            20,
-            100,
-            200
+            0, 1, 5, 10, 20, 100, 200
         };
     }
 }

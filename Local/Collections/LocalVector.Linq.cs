@@ -137,6 +137,43 @@ namespace Local.Collections
 
         #endregion
 
+        #region FirstOrDefault
+
+        public readonly T FirstOrDefault()
+        {
+            return _length == 0 ? default! : _element0;
+        }
+
+        public readonly T FirstOrDefault(Func<T, bool> predicate)
+        {
+            for (var i = 0; i < _length; i++)
+            {
+                var element = Get(i);
+                if (predicate(element))
+                {
+                    return element;
+                }
+            }
+
+            return default!;
+        }
+
+        public readonly T FirstOrDefault<TArg>(Func<T, TArg, bool> predicate, TArg arg)
+        {
+            for (var i = 0; i < _length; i++)
+            {
+                var element = Get(i);
+                if (predicate(element, arg))
+                {
+                    return element;
+                }
+            }
+
+            return default!;
+        }
+
+        #endregion
+
         public readonly T Last()
         {
             EnsureNotEmpty();

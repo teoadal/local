@@ -10,11 +10,11 @@
 
         <Title>Local</Title>
         <Description>Simple collection on stack</Description>
-        <Version>0.8.1</Version>
+        <Version>0.8.2</Version>
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>git://github.com/teoadal/local</RepositoryUrl>
         <PackageId>Locals</PackageId>
-        <PackageTags>collection;list;performance</PackageTags>
+        <PackageTags>collection;stack;list;performance</PackageTags>
         <PackageProjectUrl>https://github.com/teoadal/local</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

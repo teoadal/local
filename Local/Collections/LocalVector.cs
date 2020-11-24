@@ -205,7 +205,7 @@ namespace Local.Collections
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public readonly Enumerator GetEnumerator() => new Enumerator(in this);
+        public readonly Enumerator GetEnumerator() => new Enumerator(this);
 
         public void Reverse()
         {
