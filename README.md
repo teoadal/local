@@ -1,4 +1,4 @@
-# Marble
+# Locals
 
 [![.NET Core](https://github.com/teoadal/local/workflows/.NET%20Core/badge.svg?branch=master)](https://github.com/teoadal/local/actions)
 [![codecov](https://codecov.io/gh/teoadal/local/branch/master/graph/badge.svg)](https://codecov.io/gh/teoadal/local)
@@ -39,7 +39,7 @@ Use to store a small number of items (up to 7) without allocating an intermediat
 
 ## Install from nuget
 
-Install Marble with the following command [from nuget](https://www.nuget.org/packages/locals/):
+Install Locals with the following command [from nuget](https://www.nuget.org/packages/locals/):
 
 ```ini
 Install-Package Locals
