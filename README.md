@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/teoadal/local/branch/master/graph/badge.svg)](https://codecov.io/gh/teoadal/local)
 [![NuGet](https://img.shields.io/nuget/v/locals.svg)](https://www.nuget.org/packages/locals) 
 [![NuGet](https://img.shields.io/nuget/dt/locals.svg)](https://www.nuget.org/packages/locals)
+[![CodeFactor](https://www.codefactor.io/repository/github/teoadal/local/badge)](https://www.codefactor.io/repository/github/teoadal/local)
 
 Simple collection on stack. 
 Use to store a small number of items (up to 7) without allocating an intermediate collection.
