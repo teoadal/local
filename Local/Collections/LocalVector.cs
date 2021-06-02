@@ -89,7 +89,7 @@ namespace Local.Collections
             _length = 5;
         }
 
-        public LocalVector(IEnumerable<T> collection) : this()
+        public LocalVector(IEnumerable<T> collection) : this(0)
         {
             foreach (var element in collection)
             {
