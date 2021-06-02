@@ -49,7 +49,7 @@ Install-Package Locals
 ## Usage
 
 ```cs
-var vector = new LocalVector<Foo>();
+var vector = new LocalVector<Foo>(); // it's ref struct
 vector.Add(new Foo { Value = 1 });
 vector.AddRange(items);
 
